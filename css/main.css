@@ -1,0 +1,77 @@
+body,html{
+    
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #780206 0%, #061161 74%) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/**************************Header******************************/
+.bookSpace h1{
+    text-align: center;
+    color:white;
+    padding:30px;
+}
+/**************************Form styles**************************/
+
+/*removes shadow from input*/
+#filter,#bookForm input,textarea,button{
+    box-shadow: none!important;
+    
+}
+
+/*add book button*/
+#bookForm #submitForm{
+    border-radius: 15px 50px; 
+    background-color: #061161;
+    border-color:#061161;
+    transition: box-shadow 0.3s;
+}
+#bookForm #submitForm:hover{
+   
+    box-shadow:  5px 8px 5px #061161!important;
+
+    background-color: #061161;
+    border-color:#061161;
+}
+
+#bookForm #submitForm i{
+    margin-right: 1em;
+    font-size: 20px;
+
+}
+/****highlights*****/
+
+/*add highlight button + quote button*/
+#bookForm #highlight, #quoteBtn {
+    background-color: #061161 ;
+    border:none!important;
+    color:white;
+
+}
+#bookForm #highlight i{
+    font-size: 20px;
+    color:white;
+    transition:transform .5s ease-out!important;
+    transition:0s;
+
+
+}
+#bookForm #highlight i:hover{
+    transform:rotate(360deg);
+}
+/**************************library styles: list of books**************************/
+
+#bookList #library{
+    background-color: #780206;
+    margin-right:20px;
+
+}
+
+/******errors style*******/
+#error1,#error2{
+        color:red;
+        font-size:10px;
+}
+

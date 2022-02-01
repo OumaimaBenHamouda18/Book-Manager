@@ -1,0 +1,57 @@
+//local storage updates only on refresh
+
+
+
+
+
+
+ function updateQ(e)
+        {
+            if(e.target.classList.contains('delete')){
+                var i=0;
+                while(i<quotesArray.length)
+                {
+                    if(e.target.parentElement.textContent==quotesArray[i]){
+                        quotesArray.splice(i,1);
+                        itemToUpdate.quotes=quotesArray;
+                        localStorage.setItem(key,JSON.stringify(itemToUpdate));
+                        location.reload();
+                        break;
+                    }
+                    else{
+                        i++;
+                    }
+                }
+            }
+
+    }
+
+
+
+
+
+function updateH(e)
+    {
+        if(e.target.classList.contains('delete')){
+            var i=0;
+            while(i<highlightArray.length)
+            {
+                if(e.target.parentElement.textContent==highlightArray[i]){
+                    highlightArray.splice(i,1);
+                    itemToUpdate.highlights=highlightArray;
+                    localStorage.setItem(key,JSON.stringify(itemToUpdate));
+                    location.reload();
+                    break;
+                }
+                else{
+                    i++;
+                }
+            }
+        }
+    }
+
+
+
+
+
+

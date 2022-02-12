@@ -1,7 +1,7 @@
 # Book-Manager
 
-https://user-images.githubusercontent.com/66558351/153713943-658f6fca-5eba-4de7-b90e-cfe36dd417f4.mp4
 
+![Uploading final_6207b98df4e682018d2750df_537181.gif…]()
 
 This small website is developed as a mini project to practice Vanilla Javascript.  
 Since i like reading books i decided to create a simple book manager that i can use to store summaries i write and quotes i like.  

@@ -1,4 +1,8 @@
 # Book-Manager
+
+https://user-images.githubusercontent.com/66558351/153713943-658f6fca-5eba-4de7-b90e-cfe36dd417f4.mp4
+
+
 This small website is developed as a mini project to practice Vanilla Javascript.  
 Since i like reading books i decided to create a simple book manager that i can use to store summaries i write and quotes i like.  
 It has two pages: 
@@ -18,3 +22,4 @@ It has two pages:
     -->local storage 
     -->session storage
     -->Hoisting
+    
